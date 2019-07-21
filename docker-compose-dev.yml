@@ -1,0 +1,10 @@
+version: '3'
+
+volumes:
+  applications-docker-sync:
+    external: true
+
+services:
+  workspace:
+    volumes:
+      - applications-docker-sync:${APP_CODE_PATH_CONTAINER}
