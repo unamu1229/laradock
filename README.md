@@ -1,3 +1,9 @@
+## 自分用の環境起動
+mysqlとnginxとphp-fpmとworkspaceだけあればよい
+```
+docker-compose -f docker-compose.my.yml up -d
+```
+
 <p align="center">
     <img src="/.github/home-page-images/laradock-logo.jpg?raw=true" alt="Laradock Logo"/>
 </p>
